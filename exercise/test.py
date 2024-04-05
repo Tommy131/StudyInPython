@@ -20,6 +20,7 @@
 # vorname, nachname = 'Jay', 'Cao'
 # print(f'{vorname:_^10}')
 
+# ------------------------------------------------#
 
 # if (1 > 0) and (1 != 0):
 #     print(True)
@@ -42,6 +43,8 @@
 # print(summe)
 
 
+# ------------------------------------------------#
+
 # a = 18
 # b = 30
 # while a > 0 and b > 0:
@@ -55,7 +58,7 @@
 # else:
 #     print(b)
 
-
+# ------------------------------------------------#
 
 # richtig = 0
 # falsch = 0
@@ -74,9 +77,40 @@
 
 # print("Du hattest", richtig, "richtige und", falsch, "falsche Antwort/en.")
 
+# ------------------------------------------------#
 
-Gesamtminuten = float(input("Gesamtminuten: "))
-Stunden = Gesamtminuten // 60
-Minuten = Gesamtminuten % 60
+# Gesamtminuten = float(input("Gesamtminuten: "))
+# Stunden = Gesamtminuten // 60
+# Minuten = Gesamtminuten % 60
 
-print("{0} Stunden {1} Minuten".format(Stunden, Minuten))
+# print("{0} Stunden {1} Minuten".format(Stunden, Minuten))
+
+# list = ['a', 'b', 'c', 'e', 'd', 'g', 'f', 'm', 'l', 'n']
+# list.sort()
+# print(list)
+# print(list[:3])
+
+# ------------------------------------------------#
+
+# languages = ["PHP", "C++", "C#", "Python", "JavaScript", "CSS", "HTML"]
+
+# for lang in languages:
+#     if lang == "Python":
+#         print(f"I'm learning this language: {lang}")
+#         continue;
+#     else:
+#         print(f"I can program with the language {lang}!")
+
+# ------------------------------------------------#
+
+# def berechne_summe(zahlen):
+#     summe = 0
+#     for i in range(0, len(zahlen)):
+#         print('当前循环: ', i)
+#         summe += zahlen[i]
+#     return summe
+
+# print(berechne_summe([4, 5, 6, 7]))
+
+# ------------------------------------------------#
+
